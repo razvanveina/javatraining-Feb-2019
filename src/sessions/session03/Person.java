@@ -82,3 +82,7 @@ public class Person {
 		System.out.println(Arrays.toString(params));
 	}
 }
+
+class MyClass {
+
+}
