@@ -1,0 +1,23 @@
+Sa se implementeze o clasa Employee care descrie un angajat.
+Clasa are variabile membru name(String), age(int), salary(int), manager(Person) si
+un constructor care permite initializarea variabilelor membru.
+De asemenea in clasa exista o metoda show() care afiseaza valorile variabilelor membru pentru un angajat.
+
+Folosind aceasta clasa se va creea o alta clasa EmployeeClient care va crea un array de Employee (minim 5) si
+va implementa si apela metode pentru:
+  - afisarea angajatului cu cel mai mare salariu 
+  - afisarea angajatului cu cel mai mic salariu 
+  - afisarea salariului mediu 
+  - afisarea varstei medii
+  - afisarea celui mai tanar angajat
+  - afisarea managerului general (angajatul care nu are un manager)
+  - afisarea angajatilor sub forma unei ierarhii din care sa rezulte ierarhia in firma
+Ex:
+Ghita
+  Mircea
+    Gheo
+    Marius
+  Ion
+    Radu
+        
+  
