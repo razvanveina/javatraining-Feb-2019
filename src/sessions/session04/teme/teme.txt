@@ -1,5 +1,5 @@
 Sa se implementeze o clasa Employee care descrie un angajat.
-Clasa are variabile membru name(String), age(int), salary(int), manager(Person) si
+Clasa are variabile membru name(String), age(int), salary(int), manager(Employee) si
 un constructor care permite initializarea variabilelor membru.
 De asemenea in clasa exista o metoda show() care afiseaza valorile variabilelor membru pentru un angajat.
 
