@@ -1,4 +1,4 @@
-package sessions.session08;
+package sessions.session08.calculator;
 
 public class Calculator {
 	private double currentValue;

@@ -1,4 +1,4 @@
-package sessions.session08;
+package sessions.session08.calculator;
 
 import java.util.Scanner;
 
