@@ -2,8 +2,11 @@ package sessions.session08.calculator;
 
 import java.util.Scanner;
 
+import sessions.session08.ceas.Display;
+
 public class MiniCalc {
 	private Calculator calculator = new Calculator();
+	private Display display = new Display();
 
 	public static void main(String[] args) {
 		MiniCalc mc = new MiniCalc();
@@ -25,6 +28,8 @@ public class MiniCalc {
 			}
 			double result = calculator.doOperation(operation);
 			System.out.println(result);
+			display.show("" + result);
+
 		}
 		scanner.close();
 	}

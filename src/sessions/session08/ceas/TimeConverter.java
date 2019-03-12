@@ -8,7 +8,13 @@ public class TimeConverter {
 		long ss = secondsInDay % 60;
 		long mm = secondsInDay / 60 % 60;
 		long hh = secondsInDay / (60 * 60) % (60 * 60) + 2;
-		return hh + ":" + mm + ":" + ss;
+		return padWithZeroes(hh) + ":" + padWithZeroes(mm) + ":" + padWithZeroes(ss);
+	}
+
+	private String padWithZeroes(long n) {
+		// daca n < 10 returneaza "0"+n
+		// altfel returneaza n
+		return null;
 	}
 
 }

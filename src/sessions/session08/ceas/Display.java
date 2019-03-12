@@ -14,7 +14,7 @@ public class Display {
 			{ " _ ", " _|", "|_ " }, { " _ ", " _|", " _|" }, { "   ", "|_ ", "  |" }, //
 			{ " _ ", "|_ ", " _|" }, { "   ", "|_ ", "|_|" }, { " _ ", "  |", "  |" }, //
 			{ " _ ", "|_|", "|_|" }, { " _ ", "|_|", "  |" }, //
-			{ "   ", " o ", " o " } };
+			{ "   ", " o ", " o " }, { "   ", "   ", " o " } };
 
 	public void show(String text) {
 		for (int row = 0; row < DIGITS[0].length; row++) {
@@ -25,6 +25,8 @@ public class Display {
 					System.out.print(DIGITS[index][row]);
 				} else if (ch == ':') {
 					System.out.print(DIGITS[10][row]);
+				} else if (ch == '.') {
+					System.out.print(DIGITS[11][row]);
 				}
 			}
 			System.out.println();
